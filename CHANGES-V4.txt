@@ -1,0 +1,1 @@
+Version 4: removed heading punctuation and duplicate tagline/Ululation card; revised homepage, About intro, translation practice cards, Travel Radar archive, contact categories; updated tools to memoQ, AI post-editing, Aegisub. Images unchanged for future replacement.

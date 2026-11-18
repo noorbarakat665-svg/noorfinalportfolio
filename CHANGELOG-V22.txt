@@ -1,0 +1,16 @@
+Noor Barakat — Language & Letters | V22 change log
+
+Translator's Notes replaced verbatim on exactly five project pages:
+1. Historic Jeddah as a Unique Islamic City
+2. Oral Histories of Social, Cultural, and Environmental Changes in Saudi Arabia Before and After Saudi Aramco
+3. Saqr Quraish
+4. Variety: Actors on Actors
+5. Science in Everyday Language — The Verge
+
+Additional previously requested adjustments:
+- Translation landing-page project count corrected from four to five.
+- Arabic poetic text in Labour given a page-specific Amiri font override; other site typography unchanged.
+
+Preserved:
+- Existing projects and their order, all other Translator's Notes, content excerpts, links, images, captions, credits, metadata, layout and navigation.
+- No subtitle samples (.srt/.ass/.vtt) were present in the supplied V21 website ZIP, so the AVT note claims about timing, segmentation, and register could not be independently checked against subtitle files. No examples were invented.
