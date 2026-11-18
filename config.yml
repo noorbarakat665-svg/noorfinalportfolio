@@ -1,0 +1,406 @@
+backend:
+  name: github
+  repo: noorbarakat665-svg/noor-portofolio
+  branch: main
+publish: false
+media_folder: assets/uploads
+public_folder: /assets/uploads
+collections:
+- name: website
+  label: Website content
+  files:
+  - label: Edit portfolio text & images
+    name: site
+    file: content/site.json
+    format: json
+    fields:
+    - label: ── HOME ──
+      name: _heading_home
+      widget: hidden
+      default: ''
+    - label: Home 01 · A portfolio of language & letters · 2026
+      name: home_01
+      widget: string
+      required: false
+    - label: Home 02 · Translator · Linguist · Writer · Editor
+      name: home_02
+      widget: string
+      required: false
+    - label: Home 03 · A linguist by education, a translator by practice, and a writer
+        b
+      name: home_03
+      widget: string
+      required: false
+    - label: Home 04 · Explore the portfolio
+      name: home_04
+      widget: string
+      required: false
+    - label: Home 05 · Words, in practice.
+      name: home_05
+      widget: string
+      required: false
+    - label: 'Home 06 · Two connected disciplines, each with its own space for projects, '
+      name: home_06
+      widget: string
+      required: false
+    - label: Home 07 · Language across borders
+      name: home_07
+      widget: string
+      required: false
+    - label: Home 08 · Translation
+      name: home_08
+      widget: string
+      required: false
+    - label: Home 09 · Ideas on the page
+      name: home_09
+      widget: string
+      required: false
+    - label: Home 10 · Writing
+      name: home_10
+      widget: string
+      required: false
+    - label: Home 12 · Behind the work
+      name: home_12
+      widget: string
+      required: false
+    - label: ── ABOUT ──
+      name: _heading_about
+      widget: hidden
+      default: ''
+    - label: About 01 · 02 / About
+      name: about_01
+      widget: string
+      required: false
+    - label: About 02 · A linguist by education, a translator by practice, and a writer
+        b
+      name: about_02
+      widget: string
+      required: false
+    - label: About 03 · 01 / Education
+      name: about_03
+      widget: string
+      required: false
+    - label: About 04 · First-Class Honors
+      name: about_04
+      widget: string
+      required: false
+    - label: About 05 · GPA 4.97 / 5.00
+      name: about_05
+      widget: string
+      required: false
+    - label: About 06 · Class of 2026
+      name: about_06
+      widget: string
+      required: false
+    - label: About 07 · A personal graduation photograph can be added here when you're
+        re
+      name: about_07
+      widget: string
+      required: false
+    - label: About 08 · 02 / Honors & recognition
+      name: about_08
+      widget: string
+      required: false
+    - label: About 09 · Recognition, earned.
+      name: about_09
+      widget: string
+      required: false
+    - label: About 10 · assets/interpreting-trophy.webp
+      name: about_10
+      widget: image
+      required: false
+    - label: About 11 · Prince Sultan University · October 2025
+      name: about_11
+      widget: string
+      required: false
+    - label: About 12 · Second place in consecutive interpreting.
+      name: about_12
+      widget: string
+      required: false
+    - label: About 13 · Recognized at the 11th Regional Translation Competition, in
+        the c
+      name: about_13
+      widget: string
+      required: false
+    - label: About 14 · Alongside this distinction, Noor received King Abdulaziz Universi
+      name: about_14
+      widget: text
+      required: false
+    - label: About 15 · 03 / Selected experience
+      name: about_15
+      widget: string
+      required: false
+    - label: About 16 · Practice & perspective.
+      name: about_16
+      widget: string
+      required: false
+    - label: About 17 · Travel Radar
+      name: about_17
+      widget: string
+      required: false
+    - label: About 18 · Lingo Times
+      name: about_18
+      widget: string
+      required: false
+    - label: About 19 · Translation practicum
+      name: about_19
+      widget: string
+      required: false
+    - label: About 20 · The Task of the Translator
+      name: about_20
+      widget: string
+      required: false
+    - label: About 21 · 04 / Continuing development
+      name: about_21
+      widget: string
+      required: false
+    - label: About 22 · Learning in practice.
+      name: about_22
+      widget: string
+      required: false
+    - label: About 23 · Translation tools
+      name: about_23
+      widget: string
+      required: false
+    - label: About 24 · memoQ Translator Pro Course, Basics; Translation Ethics Competenc
+      name: about_24
+      widget: string
+      required: false
+    - label: About 25 · Language & technology
+      name: about_25
+      widget: string
+      required: false
+    - label: 'About 26 · Working with AI: Post-Editing for Future Translators; Translation'
+      name: about_26
+      widget: string
+      required: false
+    - label: About 27 · Publishing & editorial
+      name: about_27
+      widget: string
+      required: false
+    - label: About 28 · Academic Publishing Work Experience with Taylor & Francis,
+        via Sp
+      name: about_28
+      widget: string
+      required: false
+    - label: About 29 · 05 / References
+      name: about_29
+      widget: string
+      required: false
+    - label: About 30 · References.
+      name: about_30
+      widget: string
+      required: false
+    - label: About 31 · Academic and professional references are available upon request.
+      name: about_31
+      widget: string
+      required: false
+    - label: ── TRANSLATION ──
+      name: _heading_translation
+      widget: hidden
+      default: ''
+    - label: Translation 01 · 03 / Portfolio
+      name: translation_01
+      widget: string
+      required: false
+    - label: Translation 02 · Between languages, forms, and ways of experiencing the
+        world.
+      name: translation_02
+      widget: string
+      required: false
+    - label: Translation 03 · Selected practice
+      name: translation_03
+      widget: string
+      required: false
+    - label: Translation 04 · Work in progress.
+      name: translation_04
+      widget: string
+      required: false
+    - label: Translation 05 · A curated selection of bilingual excerpts and translation
+        project
+      name: translation_05
+      widget: text
+      required: false
+    - label: Translation 06 · Translation, accessibility & research
+      name: translation_06
+      widget: string
+      required: false
+    - label: Translation 07 · Where translation meets accessibility.
+      name: translation_07
+      widget: string
+      required: false
+    - label: Translation 08 · Explore the research journal from The Task of the Translator
+        Lab,
+      name: translation_08
+      widget: text
+      required: false
+    - label: ── WRITING ──
+      name: _heading_writing
+      widget: hidden
+      default: ''
+    - label: Writing 01 · 04 / Portfolio
+      name: writing_01
+      widget: string
+      required: false
+    - label: Writing 02 · From the newsroom to the research journal, writing that
+        follows l
+      name: writing_02
+      widget: string
+      required: false
+    - label: Writing 03 · 01 / Editorial & magazine
+      name: writing_03
+      widget: string
+      required: false
+    - label: Writing 04 · Lingo Times.
+      name: writing_04
+      widget: string
+      required: false
+    - label: 'Writing 05 · Three contributions to a student-led magazine, alongside
+        work as '
+      name: writing_05
+      widget: string
+      required: false
+    - label: Writing 06 · assets/magazine-cover.webp
+      name: writing_06
+      widget: image
+      required: false
+    - label: Writing 07 · Featured · Sociophonetics & anthropology
+      name: writing_07
+      widget: string
+      required: false
+    - label: 'Writing 08 · Ululation: The Playful Sound of Celebration.'
+      name: writing_08
+      widget: string
+      required: false
+    - label: 'Writing 09 · An exploration of the phonetic qualities, cultural meanings,
+        and '
+      name: writing_09
+      widget: text
+      required: false
+    - label: Writing 10 · Lingo Times · Pages 18–22
+      name: writing_10
+      widget: string
+      required: false
+    - label: Writing 15 · assets/discourse.webp
+      name: writing_15
+      widget: image
+      required: false
+    - label: Writing 16 · Discourse analysis · Pages 14–16
+      name: writing_16
+      widget: string
+      required: false
+    - label: Writing 17 · What My Major Says About Me
+      name: writing_17
+      widget: string
+      required: false
+    - label: Writing 18 · University stereotypes, identity, and the language of everyday
+        en
+      name: writing_18
+      widget: string
+      required: false
+    - label: Writing 19 · assets/tea-party.webp
+      name: writing_19
+      widget: image
+      required: false
+    - label: Writing 20 · Campus reporting · Page 8
+      name: writing_20
+      widget: string
+      required: false
+    - label: Writing 21 · The British Tea Party
+      name: writing_21
+      widget: string
+      required: false
+    - label: Writing 22 · A report on a TCL Club campus event bringing language and
+        culture
+      name: writing_22
+      widget: string
+      required: false
+    - label: Writing 23 · 02 / Aviation journalism
+      name: writing_23
+      widget: string
+      required: false
+    - label: Writing 24 · Travel Radar.
+      name: writing_24
+      widget: string
+      required: false
+    - label: Writing 25 · Published aviation reporting, from airport operations and
+        disrupt
+      name: writing_25
+      widget: string
+      required: false
+    - label: Writing 38 · 03 / Research & reflective writing
+      name: writing_38
+      widget: string
+      required: false
+    - label: Writing 39 · A research journal from Hayy Jameel, 2026. Five individually
+        publ
+      name: writing_39
+      widget: text
+      required: false
+    - label: Writing 40 · Accessibility, alt text & visual art
+      name: writing_40
+      widget: string
+      required: false
+    - label: Writing 41 · Day 1
+      name: writing_41
+      widget: string
+      required: false
+    - label: Writing 42 · Audio description & audiovisual storytelling
+      name: writing_42
+      widget: string
+      required: false
+    - label: Writing 43 · Day 2
+      name: writing_43
+      widget: string
+      required: false
+    - label: Writing 44 · Art, interpretation & accessible practice
+      name: writing_44
+      widget: string
+      required: false
+    - label: Writing 45 · Day 3
+      name: writing_45
+      widget: string
+      required: false
+    - label: Writing 46 · Disability, language & representation
+      name: writing_46
+      widget: string
+      required: false
+    - label: Writing 47 · Day 4
+      name: writing_47
+      widget: string
+      required: false
+    - label: Writing 48 · Making, collaboration & reflection
+      name: writing_48
+      widget: string
+      required: false
+    - label: Writing 49 · Days of Making
+      name: writing_49
+      widget: string
+      required: false
+    - label: ── CONTACT ──
+      name: _heading_contact
+      widget: hidden
+      default: ''
+    - label: Contact 01 · 05 / Contact
+      name: contact_01
+      widget: string
+      required: false
+    - label: 'Contact 02 · For translation, writing, editorial collaborations, research,
+        or '
+      name: contact_02
+      widget: string
+      required: false
+    - label: Contact 03 · A conversation begins here
+      name: contact_03
+      widget: string
+      required: false
+    - label: Contact 04 · I'm open to conversations about translation, linguistics,
+        writing
+      name: contact_04
+      widget: text
+      required: false
+    - label: 'Contact 05 · This opens your email application with your message prepared.
+        It '
+      name: contact_05
+      widget: text
+      required: false
